@@ -9,7 +9,7 @@ Card.propTypes = {
 };
 
 Card.defaultProps = {
-	reverse: true,
+	reverse: false,
 };
 
 export default Card;
