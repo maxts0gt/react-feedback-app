@@ -18,7 +18,6 @@ function FeedbackForm() {
 			setText(feedbackEdit.item.text);
 			setRating(feedbackEdit.item.rating);
 		}
-		console.log('Hello');
 	}, [feedbackEdit]);
 
 	const handleTextChange = (event) => {
